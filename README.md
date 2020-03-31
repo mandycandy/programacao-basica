@@ -1,2 +1,2 @@
-# Programação Básica [PT - BR rep]
- 
+# Programação Básica | Algoritmo [PT - BR]
+
