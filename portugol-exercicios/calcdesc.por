@@ -1,9 +1,7 @@
 programa
 {
-	// 
 	funcao inicio()
 	{
-		//
 		real desc
 		real preco, npreco
 		
