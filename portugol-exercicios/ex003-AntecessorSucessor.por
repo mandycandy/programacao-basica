@@ -1,29 +1,28 @@
 programa
 {
+	
 	funcao inicio()
 	{
-		real desc
-		real preco, npreco
-		
-		escreva("----- CALCULADORA DE DESCONTO -----\n")
-		escreva("Porcentagem do desconto: ")
-		leia(desc)
-		escreva("Preço do produto: R$")
-		leia(preco)
+		// Variáveis
+		inteiro num
 
-		npreco = preco - (preco * desc / 100)
+		// Entrada
+		escreva("Me diga um número: ")
+		leia(num)
 
-		escreva("O preço de R$", preco, " com ", desc, "% de desconto é R$", npreco)
-		escreva("\n-----------------------------------")
+		// Saída
+		escreva("----------------------------------------\n")
+		escreva("O antecessor de ", num, " é o valor ", (num - 1))
+		escreva("\nO sucessor de ", num, " é o valor ", (num + 1))
+		escreva("\n")
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 269; 
+ * @POSICAO-CURSOR = 44; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
