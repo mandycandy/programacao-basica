@@ -4,7 +4,7 @@ programa
 	funcao inicio()
 	{
 		inteiro n1, n2
-		escreva("{ EXERCÍCIO 004 - Operações Aritméticas }\n")
+
 		escreva("Digite um valor: ")
 		leia(n1)
 		escreva("Digite outro valo: ")

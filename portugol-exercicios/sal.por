@@ -1,26 +1,25 @@
 programa
 {
-	inclua biblioteca Matematica -->
+	inclua biblioteca Matematica
 	funcao inicio()
 	{
 		cadeia nome
-		real sal
-		real reajuste
-		
+		real sal, ajuste
+				
 		escreva("Nome do funcionário: ")
 		leia(nome)
 		escreva("Salário: R$")
 		leia(sal)
 		escreva("Reajuste (%): ")
-		leia(reajuste)
+		leia(ajuste)
 
-		real sal_reajuste = sal + (sal * reajuste / 100)
+		real sal_ajuste = sal + (sal * ajuste / 100)
 
 		escreva(
 		"\n----- RESULTADO -----", "\n",
 		nome, " ganhava R$", sal, "\n",
-		"e depois de ganhar ", reajuste, "% de aumento", "\n",
-		"vai passar a ganhar R$", Matematica.arredondar(sal_reajuste, 2)
+		"e depois de ganhar ", ajuste, "% de aumento", "\n",
+		"vai passar a ganhar R$", Matematica.arredondar(sal_ajuste, 2)
 		)
 	}
 }

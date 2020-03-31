@@ -6,7 +6,7 @@ programa
 	{	
 		inteiro anos, cpd
 		
-		escreva("{ EXERCÍCIO 010 - Não fume }\n")	
+		escreva("----------------------------------------\n")
 		escreva("Cada cigarro reduz 10 minutos de vida\n")
 		escreva("----------------------------------------\n")
 				
@@ -15,8 +15,7 @@ programa
 		escreva("Quantos cigarros você fuma por dia? ")
 		leia(cpd)
 
-		inteiro dias = anos * 365
-		inteiro tot_cig = cpd * dias
+		inteiro tot_cig = cpd * anos * 365
 		real perdeu = t.inteiro_para_real(tot_cig) * 10 / 1440
 		
 		escreva("----------------------------------------\n")		
