@@ -19,7 +19,8 @@ programa
 		media = (nota1 + nota2) / NOTAS
 
 		// Saída de Dados
-		escreva("A notas do aluno foram ", nota1, " e ", nota2)
+		escreva("\n----- RESULTADO -----")
+		escreva("\nA notas do aluno foram ", nota1, " e ", nota2)
 		escreva("\nA média final foi ", media, "\n")
 	}
 }
